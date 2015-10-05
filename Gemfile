@@ -8,6 +8,8 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+#font awesome
+gem 'font-awesome-sass', '4.2.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.3'
 # Use Uglifier as compressor for JavaScript assets
