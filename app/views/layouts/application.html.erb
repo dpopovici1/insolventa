@@ -16,23 +16,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-<<<<<<< HEAD
       <%= link_to 'Insolventa', root_path, class: 'navbar-brand' %>
     </div>
     <div class="collapse navbar-collapse" id="main-nav-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Cine suntem ?", "about_path" %></li>
-        <li><%= link_to "Prezentare", "prezentare_path" %></li>
-        <li><%= link_to "Comunicat", "comunicat_path" %></li>
-        <li><%= link_to "Sinteza", "Sinteza_path" %></li>
-        <li><%= link_to "Vanzari", "vanzari_path" %></li>
-=======
-      <%= link_to 'SaaS', root_path, class: 'navbar-brand' %>
-    </div>
-    <div class="collapse navbar-collapse" id="main-nav-collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "About", "#" %></li>
->>>>>>> development
+        <li><%= link_to "Cine suntem ?", about_path %></li>
+        <li><%= link_to "Prezentare", prezentare_path %></li>
+        <li><%= link_to "Comunicat", comunicat_path %></li>
+        <li><%= link_to "Sinteza", sinteza_path %></li>
+        <li><%= link_to "Vanzari", vanzari_path %></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div>
@@ -41,6 +33,7 @@
 <div class="container">  
   <%= yield %>
 </div>
+   
 
 </body>
 </html>
