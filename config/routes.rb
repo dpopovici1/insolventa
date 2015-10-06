@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
-  get '/vanzari' => 'pages#vanzari'
+  resources :contacts
   get '/sinteza' => 'pages#sinteza'
-  get '/prezentare' => 'pages#prezentare'
+  get '/vanzari' => 'pages#vanzari'
   get '/comunicat' => 'pages#comunicat'
+  get '/prezentare' => 'pages#prezentare'
   get '/about' => 'pages#about'
   root 'pages#home'
   # The priority is based upon order of creation: first created -> highest priority.
